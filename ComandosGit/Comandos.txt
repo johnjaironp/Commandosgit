@@ -1,0 +1,48 @@
+cmd
+cd [path] // Ir a la ruta 
+touch [nameFile]// crear archivo 
+mkdir [nameFolder] // crea un carpeta
+ls // enlista los archivos  y carpetas 
+rm [fileName]//  borra el archivo
+rm -r [FolderName] // borra las carpetas
+rmgit s
+
+Git 
+
+git init // inicializa los archivos de git para
+git init [nameProjec]  //Nombre del proyecto se crea un nuevo repositorio con el nombre seleccionado.
+git add [FileName]  // Prepara el archivo para realizar el commit // lo pasa del working directory to stagin 
+git add A // prepara todos los archivos para realizar el commit   // lo pasa del working directory to stagin 
+git add -n [FileName] // Verifica si el archivo existe
+git status // Viualisa el estado en el que se encuentran los archivos.
+git rm --cached [filename] // retorna el archivo de stagin a el working directory
+git rm -f [filename]  // Elimina el archivo del stegin y del wolking directory
+git restore --staged [fileName] // restaura los cambios del archivo de stagin al working directoy
+git commit -m [Message]  // se agrega el los arvhivos al repositorio local.
+git tag [version] -m [Message] // se agrega version a los commit realizados 
+git tag - l // Enlista los commit 
+git tag -d [version]  // elimina la version 
+git tag -f [version]  // Actualza la versión 
+git log  // enlista los commit realizados 
+git log --oneline  // enlista los commit en una sola linea 
+git diff [sha] // trae los cambios del commit 
+git diff [sha1] [sha2] //Compara los cambios de dos commit nota: importante el orden. 
+git reset --soft [sha] // resetea los cambios superiores al sha enviado deja los cambios en stagin
+git reset --mixed [sha] // reversa los cambios superiores al sha enviado deja los cambio en el working directory
+git reset --hard [sha]  // quita los archivos del commit de stagin y del wolking directory nota si se conoce el sha puede recuperar un commit eliminado
+git fsck --lost-found   // recupera el ultimo commit borrado con git reset --hard
+git branch [nameBranch]  // crea una nueva rama 
+git branch -l // Enlista las ramas 
+git branch -d // Elimina la rama si no tiene cambios pendientes de commit
+git branch -D // Elimina la rama si tiene commit pendientes
+git checkout [branch]  // se cambia en la rama
+git checkout [sha] // cambia el head a al commit seleccionado
+git checkout -b [branch] // Crea una rama y se posiciona sobre ella
+git merge [branch]  // se mesclan cambios.
+git rebase [branch]  // se mesclan los cambios de la rama seleccionada sin dejar rastro de la iteraccion de ramas.
+git stash // crea un stash de los cambios pendientes 
+git stash list // enlista los cambios pendiente en la rama 
+git stash drop [stash@{0}] // elimina el stash seleccionado.
+git stash apply //aplica el ultimo stash 
+git stash apply [stash@{2}] // aplica los cambios de un stash seleccionado.
+git cherry-pick [sha] // Aplica los cambios de un commit a la rama actual
