@@ -46,3 +46,4 @@ git stash drop [stash@{0}] // elimina el stash seleccionado.
 git stash apply //aplica el ultimo stash 
 git stash apply [stash@{2}] // aplica los cambios de un stash seleccionado.
 git cherry-pick [sha] // Aplica los cambios de un commit a la rama actual
+git remote [name] [urlProyect]  // Se agrega un enlace desde el repositorio local y la cuenta gibhub
