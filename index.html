@@ -32,3 +32,4 @@ git diff [sha1] [sha2] //Compara los cambios de dos commit nota: importante el o
 git reset --soft [sha] // resetea los cambios superiores al sha enviado deja los cambios en stagin
 git reset --mixed [sha] // reversa los cambios superiores al sha enviado deja los cambio en el working directory
 git reset --hard [sha]  // quita los archivos del commit de stagin y del wolking directory nota si se conoce el sha puede recuperar un commit eliminado
+git fsck --lost-found   // recupera el ultimo commit borrado con git reset --hard
