@@ -28,3 +28,5 @@ git log  // enlista los commit realizados
 git log --oneline  // enlista los commit en una sola linea 
 git diff [sha] // trae los cambios del commit 
 git diff [sha1] [sha2] //Compara los cambios de dos commit nota: importante el orden. 
+git reset --soft [sha] // resetea los cambios superiores al sha enviado deja los cambios en stagin
+git reset --mixed [sha] // reversa los cambios superiores al sha enviado deja los cambio en el working directory
