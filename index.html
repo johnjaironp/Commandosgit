@@ -33,3 +33,9 @@ git reset --soft [sha] // resetea los cambios superiores al sha enviado deja los
 git reset --mixed [sha] // reversa los cambios superiores al sha enviado deja los cambio en el working directory
 git reset --hard [sha]  // quita los archivos del commit de stagin y del wolking directory nota si se conoce el sha puede recuperar un commit eliminado
 git fsck --lost-found   // recupera el ultimo commit borrado con git reset --hard
+git branch [nameBranch]  // crea una nueva rama 
+git branch -l // Enlista las ramas 
+git branch -d // Elimina la rama si no tiene cambios pendientes de commit
+git branch -D // Elimina la rama si tiene commit pendientes
+git checkout [branch]  // se cambia en la rama
+git checkout [sha] // cambia el head a al commit seleccionado
