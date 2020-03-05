@@ -42,3 +42,8 @@ git checkout [sha] // cambia el head a al commit seleccionado
 git checkout -b [branch] // Crea una rama y se posiciona sobre ella
 git merge [branch]  // se mesclan cambios.
 git rebase [branch]  // se mesclan los cambios de la rama seleccionada sin dejar rastro de la iteraccion de ramas.
+git stash // crea un stash de los cambios pendientes 
+git stash list // enlista los cambios pendiente en la rama 
+git stash drop [stash@{0}] // elimina el stash seleccionado.
+git stash apply //aplica el ultimo stash 
+git stash apply [stash@{2}] // aplica los cambios de un stash seleccionado.
