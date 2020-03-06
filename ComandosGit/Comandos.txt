@@ -51,3 +51,6 @@ git remote remove [name] // borra la ruta creada
 git fetch [name] [branchName]  // Obtiene los cambios del origen agregado
 git merge [name] --allow-unrelated-histories //Ejemplo (git merge origin/master --allow-unrelated-histories ) // combina la rama del repositorio remoto.
 git pull [name] [branch] //Obtiene los cambios y hacer merge ejemplo git pull origin master
+git push [name] [branch] //Envía los cambios al repositorio remoto git push origin master.
+git push [name] [branch] --tags //Envíar los tags   ejemplo(git push origin master --tags)
+
