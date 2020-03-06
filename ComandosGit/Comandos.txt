@@ -54,4 +54,5 @@ git pull [name] [branch] //Obtiene los cambios y hacer merge ejemplo git pull or
 git push [name] [branch] //Envía los cambios al repositorio remoto git push origin master.
 git push [name] [branch] --tags //Envíar los tags   ejemplo(git push origin master --tags)
 
-
+ipgithub 192.30.252.153
+ipgithub 192.30.252.154
