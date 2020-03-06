@@ -1,0 +1,126 @@
+Ma79243925
+700011043897
+
+
+		SHRT_SRC_URL_NOT_VALID
+		JAVASCRIPT
+
+		KOTLIN
+		SWIFT
+		RUST
+		RUBY
+		GO
+		C++
+		C#
+		JAVA
+		PYTHON
+	
+	
+	
+	Descripción asunto
+	Alerta fecha de terminación. {DiasPorVencer} días por vencer de la resolución "{IdResolucion}", centro de servicio  {IdCentroServicio}-{NombreCentroServicio}, fecha de vencimiento {FechaVencimiento}
+	Detalle de la tarea
+	Se informa
+	
+	
+	paObtenerAdmisionPorOS_MEN
+	
+Buenos días, 
+
+Cambios realizados en la publicacion 
+
+POS
+*. Se consume el servicio de inegocio comprobando si ha tenido facturación Dian.
+*. Se ajusta el método de creación del encabezado, si no ha tenido resolución dian se carga los  valores de código y rango desde la tabla (ParametrosAdmisiones_MEN) validando por los códigos de parametros (ResCodigoDianOffLine-ResCodigoDianOnLine-ResoluDianOffLine-ResoluDianOnLine) dependiendo si esta en linea o no. 
+
+Impresiones
+*.Se realizan los ajustes solicitados con el numero de requerimiento 201908-128
+Se ajusta los formatos Prueba de entrega y remitente-destinatario, validando el encabezado superior teniendo en cuenta si se encuentra online.
+
+Servicios controller 
+*.Al momento de siscronozar facturas creadas offline se valida si tiene resolución dian.
+
+Servicio integración 
+*.Se consume la resolucion dian si tiene asignada.
+
+Servicio inegocio
+*.Si tiene resolución DIAN asignada continua con la numeración infinita, asi se encuentre con fecha vencida o sus rangos consumidos.
+
+Tareas pendientes:
+*.Generar RAPS de notificación automática:
+   -.Faltando 5 días calendario.
+   -.Faltando 3 días calendario.
+   -. Faltando 1 día calendario.
+   
+   
+Negocio
+Cajas 
+Giros
+
+
+
+Aspectos Principales
+	Comunicacion, despliegue, dominio, interaccion y estructura.
+	
+cliente-servidor  (lan)
+componentes  (nuget)
+n-capas 		  	
+Presentacion desacoplada (mvc)
+Separacion desacoplada (n-niveles) (fisica)
+Arquitectura orientada al dominio (DDD)-(Domain driver design)
+Orientado a objetos 
+Orientado a servicio (SOA)
+Bus de servicios (Mensajes)
+Microsft ria service (RAD)
+
+
+
+Patrones
+	layered supertype
+	Abstract Interface
+	Event Driver Architecture (EDA)
+	Aggrefate
+	Separate Interface Pattern
+	Unit of work
+	Layer SuperType
+	Service locator 
+	Dependency injection e IoC
+	Factory
+	
+	persistencia
+		Active Record
+		DataMapper
+		QueryObject
+		Repository
+		RowDataGateway
+		TableDataGateway
+		TableModule
+	
+Principios de diseño
+	SOLID(Principio de unica responsabilidad-Principio abierto y cerrado-principio de sustitucion de liskov-principio de segregacion de interfaces)
+
+
+Profiling
+Inyecciones sql
+Ado. syncServices
+
+
+
+
+
+Consultar 
+		RAD(Rapid application development)
+
+
+Teoria de grafos
+redes - grafos - juegos - informacion	
+matematicas discretas y algebra.
+
+developWeb
+sprit
+mediaQueries
+flexbox
+gridSystem
+ComponentesReactivo
+
+workers
