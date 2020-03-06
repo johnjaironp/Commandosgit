@@ -48,3 +48,5 @@ git stash apply [stash@{2}] // aplica los cambios de un stash seleccionado.
 git cherry-pick [sha] // Aplica los cambios de un commit a la rama actual
 git remote add [name] [urlProyect]  // Se agrega un enlace desde el repositorio local y la cuenta gibhub
 git remote remove [name] // borra la ruta creada
+git fetch [name] [branchName]  // Obtiene los cambios del origen agregado
+git merge [name] --allow-unrelated-histories //Ejemplo (git merge origin/master --allow-unrelated-histories ) // combina la rama del repositorio remoto.
