@@ -7,7 +7,7 @@ rm [fileName]//  borra el archivo
 rm -r [FolderName] // borra las carpetas
 rmgit s
 
-Git 
+Git
 
 git init // inicializa los archivos de git para
 git init [nameProjec]  //Nombre del proyecto se crea un nuevo repositorio con el nombre seleccionado.
