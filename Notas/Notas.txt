@@ -124,3 +124,33 @@ gridSystem
 ComponentesReactivo
 
 workers
+
+
+stack 
+	nginx
+	
+	mongoDB
+	mysql
+	
+	phyton
+	go
+	node
+	
+	socket
+	chat
+	juegos real time
+	
+stack 
+	node 
+	express 
+	js
+	arduinobot
+	
+	
+	p2p
+	
+	
+TCP/IP y UDP, Tipos de Wi-fi, Firewalls, Tethering, P2P, Redes Mesh, TOR, Multi-Wan, IPs fijas vs IPs dinámicas, VPNs, TTL, Paquetes, Syncs y Ack.
+Todas estas son tecnologías que se utilizan día a día que debes conocer
+
+Arbol Binario -matematica binario
