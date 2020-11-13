@@ -57,3 +57,11 @@ git push [name] [branch] --tags //Envíar los tags   ejemplo(git push origin mas
 ipgithub 192.30.252.153
 ipgithub 192.30.252.154
 johnjaironp.github.io.
+
+10%
+
+bono % 
+
+1.200 %
+
+8.1
